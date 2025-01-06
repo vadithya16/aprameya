@@ -11,7 +11,7 @@ p,h1,h2{
 }
 @font-face {
     font-family: 'gisbon';
-    src: url('fonts/gisbon.ttf') format('truetype');
+    src: url('/fonts/gisbon/Gisbon.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 /*body {
