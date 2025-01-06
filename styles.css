@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 html,body {
     margin: unset;
     scroll-behavior: smooth;
@@ -12,7 +13,6 @@ p,h1,h2{
     font-family: 'gisbon';
     src: url('../fonts/Gisbon.ttf') format('truetype');
 }
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 /*body {
     background-color: #001f3c !important;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='20' height='20' fill-opacity='0.35' fill='%23CA9000'/%3E%3C/svg%3E")  !important;
