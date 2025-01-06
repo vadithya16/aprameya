@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 @font-face {
     font-family: 'gisbon';
-    src: url('.../fonts/Gisbon.ttf') format('truetype');
+    src: url('https://www.vadithya.in/aprameya.github.io/../fonts/Gisbon.ttf') format('truetype');
 }
 html,body {
     margin: unset;
