@@ -11,7 +11,7 @@ p,h1,h2{
 }
 @font-face {
     font-family: 'gisbon';
-    src: url('../fonts/Gisbon.ttf') format('truetype');
+    src: url('https://github.com/vadithya16/aprameya.github.io/blob/main/fonts/Gisbon.ttf') format('truetype');
 }
 /*body {
     background-color: #001f3c !important;
