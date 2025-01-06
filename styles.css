@@ -1,0 +1,246 @@
+/*font:font-family: 'gisbon', sans-serif;*/
+html,body {
+    margin: unset;
+    scroll-behavior: smooth;
+    text-align: center;
+    overflow-x: hidden;
+}
+p,h1,h2{
+    color: white;
+    margin: 0 !important;
+}
+@font-face {
+    font-family: 'gisbon';
+    src: url('fonts/gisbon.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+/*body {
+    background-color: #001f3c !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='20' height='20' fill-opacity='0.35' fill='%23CA9000'/%3E%3C/svg%3E")  !important;
+}*/
+body{
+    background-color: black !important;
+}
+br.brdisplay {
+    display: none;
+}
+/*nav*/
+.navbar{
+    background-color: #001f3c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='20' height='20' fill-opacity='0.35' fill='%23CA9000'/%3E%3C/svg%3E");
+}
+.navstyle {
+    border-bottom: 2px solid #CA9000;
+    position: fixed !important;
+    width: 100vW;
+    background: black;
+}
+a.nav-link {
+    color: #CA9000;
+    font-weight: 700;
+    font-family: gisbon, sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+    background-image: url('media/layer.jpg');
+    background-size: cover;
+    background-position: center; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+/*a.nav-link:hover {
+    color: white;
+}*/
+
+/*nav end*/
+
+/*land page*/
+h1.h1aprameya {
+    font-size: 1.5em;
+    font-family: "Dosis", serif;
+    font-weight: 800;
+}
+img.landpagelogo {
+    width: 30vW;
+    height: auto;
+}
+.divmainlanding {
+    width: 100vW;
+    height: 100vH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: url("media/c2.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.divfilter {
+    width: 100vW;
+    height: 100vH;
+    background: #000000b8;
+}
+.divlogonp {
+    width: 50vW;
+    height: auto;
+}
+p.pintro {
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 30px;
+    padding: 30px 60px 30px 30px;
+    background-image: url('media/layer.jpg');
+    background-size: cover;
+    background-position: center; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: bold; 
+    line-height: 1.8; 
+}
+.divflex {
+    display: flex;
+    height: auto;
+    width: 100vW;
+}
+.divflex{
+    display: flex;
+}
+.divlogonp {
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+/*Timer*/
+#timer-container {
+    text-align: center;
+    font-family: gisbon, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vH;
+}
+#timer {
+    font-size: 5rem;
+    margin-top: 20px;
+    background-image: url('media/layer.jpg');
+    background-size: cover;
+    background-position: center; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+#timer span {
+    font-weight: bold;
+}
+/*Timer end*/
+/*land page end*/
+
+/*about*/
+section#about {
+    background: black;
+}
+h1.h1head {
+    color: white;
+    font-family: gisbon, sans-serif;
+    background-image: url('media/layer.jpg');
+    background-size: cover;
+    background-position: center; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+/*about end*/
+
+/*event*/
+.diveventbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.divevent {
+    border: 2px solid #CA9000;
+    border-radius: 15px;
+    width: 30vW;
+    height: 20vW;
+    margin: 10px;
+    color: white;
+}
+li.lirules {
+    text-align: justify;
+    color: #ca9000;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+button.btnregister {
+    width: 20%;
+    height: 50px;
+    font-family: gisbon, sans-serif;
+    font-size: 1.5em;
+    border: 5px solid #ca9000;
+    border-radius: 50px; 
+}
+/*event end*/
+
+/*contact*/
+.divbox {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+.divcontact {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.imgcontact {
+    border: 4px solid #ca9000;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.pname{
+    color: #ca9000;
+}
+a.aphonelink {
+    color: #ca9000;
+}
+/*contact end*/
+
+/*footer*/
+.divfooter {
+    width: 100%;
+    height: auto;
+}
+img.imgcollegebanner {
+    width: 40%;
+    height: auto;
+}
+p.pdept {
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: "Dosis", serif;
+    background-image: url('media/layer.jpg');
+    background-size: cover;
+    background-position: center; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+p.pdept1 {
+    font-size: 0.8em;
+    font-weight: 900;
+    font-family: "Dosis", serif;
+    background-image: url('media/layer.jpg');
+    background-size: cover;
+    background-position: center; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+/*footer end*/
