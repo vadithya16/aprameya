@@ -1,0 +1,28 @@
+/*Responsive*/
+/*Responsive mobile*/
+@media only screen and (max-width: 480px) { 
+h1.h1aprameya {
+    font-size: 1em;
+}
+#timer {
+    font-size: 4rem;
+}
+br.brdisplay {
+    display: block;
+}
+.divflex {
+    display: block;
+}
+.divlogonp {
+    width: 100%;
+}
+p.pintro {
+    padding: 30px;
+}
+ul.ulrules {
+    margin: 5%;
+}
+button.btnregister {
+    width: auto;
+}
+}
