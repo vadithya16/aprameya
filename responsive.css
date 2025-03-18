@@ -25,4 +25,56 @@ ul.ulrules {
 button.btnregister {
     width: auto;
 }
+.divflex.divcenter {
+    display: block;
 }
+}
+
+
+/* media query tab */
+@media screen and (min-width : 481px) and (max-width: 768px) {
+h1.h1aprameya {
+    font-size: 1em;
+}
+#timer {
+    font-size: 4rem;
+}
+br.brdisplay {
+    display: block;
+}
+.divflex {
+    display: block;
+}
+.divlogonp {
+    width: 100%;
+}
+p.pintro {
+    padding: 30px;
+}
+ul.ulrules {
+    margin: 5%;
+}
+button.btnregister {
+    width: auto;
+}
+.divflex.divcenter {
+        display: flex;
+        flex-direction: column;
+}
+
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .event-title {
+        font-size: 1.2rem;
+    }
+    .event-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    .event-container {
+        height: auto;
+    }
+}
+
